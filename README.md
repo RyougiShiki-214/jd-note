@@ -26,3 +26,11 @@ Edge浏览器：https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extens
 ![image](https://github.com/user-attachments/assets/c80e36c4-11d4-4464-a0bd-711d56714d72)
 
 记得要启用Tampermonkey和jd-note
+
+# 跨设备同步
+![image](https://github.com/user-attachments/assets/54d99475-1a36-4bf0-92be-d22ea6d7e3da)
+
+设备A打开Tampermonkey设置>>实用工具>>云>>导出，可选同步方案有GoogleDrive、Dropbox、OneDrive、Yandex.Disk、WebDAV，国内推荐Onedrive。
+设备B打开Tampermonkey设置>>实用工具>>云>>显示备份，选择刚刚备份的文件。
+
+
