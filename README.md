@@ -1,5 +1,5 @@
 # jd-note
-京东购物车商品备注，跨设备同步的Tampermonkey脚本，通过GM_setValue和GM_getValue跨设备持久储存备注。
+京东购物车商品备注，跨设备同步的Tampermonkey脚本(非自动，需要借助Tampermonkey备份手动同步，可以用Dropbox、Google网盘等)，通过GM_setValue和GM_getValue持久储存备注。
 
 ![image](https://github.com/user-attachments/assets/8bbeda9a-bbf8-4ff5-bdaf-5a43cdfd6488)
 
