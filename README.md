@@ -1,5 +1,5 @@
 # jd-note
-京东购物车商品备注，跨设备同步的Tampermonkey脚本(非自动，需要借助Tampermonkey备份手动同步，可以用Dropbox、Google网盘等)，通过GM_setValue和GM_getValue持久储存备注。
+京东购物车商品备注，可跨设备同步的Tampermonkey脚本(非自动，需要借助Tampermonkey备份手动同步，可以用Dropbox、Google网盘等)，通过GM_setValue和GM_getValue持久储存备注。
 
 ![image](https://github.com/user-attachments/assets/8bbeda9a-bbf8-4ff5-bdaf-5a43cdfd6488)
 
@@ -31,6 +31,7 @@ Edge浏览器：https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extens
 ![image](https://github.com/user-attachments/assets/54d99475-1a36-4bf0-92be-d22ea6d7e3da)
 
 设备A打开Tampermonkey设置>>实用工具>>云>>导出，可选同步方案有GoogleDrive、Dropbox、OneDrive、Yandex.Disk、WebDAV，国内推荐Onedrive。
-设备B打开Tampermonkey设置>>实用工具>>云>>显示备份，选择刚刚备份的文件。
 
+设备B打开Tampermonkey设置>>实用工具>>云>>显示备份，选择刚刚备份的文件，勾选此脚本即可。
 
+话说感觉这种跨设备同步的方式有点原始，但保证用户隐私的前提下，我暂时没想到任何更好的方案，等待一个大佬建议
